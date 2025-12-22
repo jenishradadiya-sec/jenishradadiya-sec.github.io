@@ -257,3 +257,28 @@ body {
   font-size: 15px;
   color: #dcdcdc;
 }
+.social-footer {
+  background: #0b0b0b;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.social-icons a {
+  color: #eaeaea;
+  font-size: 20px;
+  margin: 0 12px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #4da3ff;
+  transform: translateY(-3px);
+}
+.footer-text {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #9a9a9a;
+  letter-spacing: 0.5px;
+}
+
