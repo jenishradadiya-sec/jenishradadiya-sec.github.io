@@ -35,12 +35,7 @@
       </p>
 
       <div class="buttons">
-        <a href="Jenish_Radadiya_IT_Engn_Exp_3_Yrs.pdf"
-   download
-   class="btn"
-   onclick="gtag('event', 'resume_download', { 'event_category': 'Resume' });">
-   Download Resume
-</a>
+        <button class="btn" onclick="openResume()">View Resume</button>
         <a href="https://www.linkedin.com/in/jenish-radadiya1"
    target="_blank"
    onclick="gtag('event', 'linkedin_click', { 'event_category': 'Social' });">
@@ -86,6 +81,7 @@
     <li>Ethical Hacker – Cisco Network Academy (2025)</li>
     <li>Cybersecurity Fundamentals – Palo Alto Networks (2025)</li>
     <li>Cybersecurity Analyst Job Simulation – Forage (2025)</li>
+    <li>Network Defense – Cisco Network Academy (2026)</li>
   </ul>
 </div>
     </div>
@@ -163,6 +159,20 @@
 
   <p>📍 Location: Surat,Gujarat,India</p>
 </section>
+<!-- Resume Viewer Modal -->
+<div id="resumeModal" class="resume-modal">
+  <div class="resume-header">
+    <a href="Jenish_Radadiya_IT_Engn_Exp_3_Yrs" download class="download-btn">
+      <i class="fa-solid fa-download"></i>
+    </a>
+    <span class="close-btn" onclick="closeResume()">✕</span>
+  </div>
+
+  <iframe
+    src="pdfjs/web/viewer.html?file=../../Jenish_Radadiya_IT_Engn_Exp_3_Yrs.pdf"
+    class="resume-frame">
+  </iframe>
+</div>
 
   <script src="script.js"></script>
 </body>
@@ -195,14 +205,3 @@
     © 2026 Jenish Radadiya · Verified Portfolio
   </p>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
