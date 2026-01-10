@@ -370,6 +370,12 @@ a {
   font-weight: 600;      /* bold */
   font-style: italic;    /* italic */
 }
+.footer-social a:hover {
+  transform: translateY(-3px);
+  color: #4da3ff;
+}
+
+
 
 
 
