@@ -5,7 +5,7 @@ This is my personal portfolio website showcasing my professional profile, skills
 The website is designed to provide a clean, fast, and recruiter-friendly experience with a modern dark theme UI.
 
 🌐 **Live Website:**  
-https://jenishradadiya9313.github.io/
+https://jenishradadiya-sec.github.io/
 
 ---
 
@@ -47,7 +47,7 @@ Feel free to connect with me:
 
 - **Email:** radadiyajenish36@gmail.com  
 - **LinkedIn:** https://www.linkedin.com/in/jenish-radadiya1  
-- **GitHub:** https://github.com/jenishradadiya9313  
+- **GitHub:** https://github.com/jenishradadiya-sec
 
 ---
 
